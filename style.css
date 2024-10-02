@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #slot-machine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .reel {
+    width: 100px;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    overflow-y: hidden;
+  }
+  
+  .symbol {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #controls {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4682B4;
+  }
+  
+  #balance, #winnings {
+    font-weight: bold;
+  }
